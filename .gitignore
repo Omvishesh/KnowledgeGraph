@@ -1,0 +1,11 @@
+prod.env
+# Ignore log files
+*.log
+# Ignore environment files
+*.env
+*.env.*
+/backup
+/backup*
+/KG_pydantic
+/logs
+._*

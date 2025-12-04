@@ -1,0 +1,10 @@
+# OpenAI API Configuration (REQUIRED)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Neo4j Configuration (OPTIONAL)
+# Leave these as placeholders if you don't want to connect to Neo4j.
+# The script will generate export files that you can import manually.
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=your_neo4j_password_here
+
