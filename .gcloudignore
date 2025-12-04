@@ -1,0 +1,10 @@
+# This ensures that files ignored by git are not uploaded to gcloud
+#!include:.gitignore
+
+# This ensures that files ignored for the Docker build are not uploaded to gcloud
+#!include:.dockerignore
+
+# Additional files to ignore only for gcloud upload
+.gcloudignore
+.git/
+.dockerignore
