@@ -1,0 +1,10 @@
+prod.env
+*.log
+*.env
+*.env.*
+backup/
+logs/
+.git/
+.gitignore
+KG_pydantic/
+._*
