@@ -50,9 +50,8 @@ QUERY_TIMEOUT = 60  # seconds
 setup_logging("sql", logging.INFO)
 logger = get_logger(__name__)
 
-DATABASE_URI = "postgresql://postgres:admin@localhost:5432/final"
-#DATABASE_URI = "postgresql://postgres:admin@136.112.177.68:5432/final"
-#DATABASE_URI = os.getenv("DATABASE_URI")
+# DATABASE_URI = "postgresql://postgres:admin@localhost:5432/final"
+DATABASE_URI = os.getenv("DATABASE_URI")
 
 engine = create_engine(
     DATABASE_URI,
